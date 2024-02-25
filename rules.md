@@ -10,7 +10,7 @@ The organisers of any Series race must agree to abide by these general rules, al
 
 ## General
 - Series Directors will be appointed each year. For 2024 the Series Directors are:
-    - Adam Pinney,aapinney@ntlworld.com, Tel.: 01582 602995
+    - Adam Pinney,aapinney@ntlworld.com, Tel.: 01582 602995.
     - Peter Thomson, peter@urban-ski-patrol.co.uk.
 - The Series Directors will adjudicate on rules and any disputes that cannot be resolved by race organisers.
 - Competitions are open to all nationalities although there may be specific trophies awarded to UK citizens or residents of the UK.

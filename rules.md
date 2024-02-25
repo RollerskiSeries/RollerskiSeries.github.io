@@ -1,7 +1,4 @@
-<head>
-<title>Rollerski Rules 2024</title>
-</head>
-    
+
 # British Roller Ski Series Rules of Competition
 
 ### Revision for 2024

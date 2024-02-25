@@ -14,7 +14,7 @@ The organisers of any Series race must agree to abide by these general rules, al
 - __All prospective race organisers must inform the Series Directors of their intention to run a British Series event. The Series Directors must approve the request and inform the race organisers accordingly.__
 - The Series will have a dedicated webpage, hosted by BMCCSA, www.bmccsa.org.uk.
 
-##Duties of the Series Directors
+## Duties of the Series Directors
 - To invite clubs affiliated to their Home Nation governing body or organisations to host a race.
 - To handle and account for any money raised from donations or sponsorship collected
 specifically for the Series. This money shall be used for trophies/prizes or other expenditure related to the Series.
@@ -68,7 +68,7 @@ Participants have to indicate, when they enter a race, which category they wish 
 - Wherever practicable, the British Championship should use matched roller skis.
 - Race results shall indicate British championship winners.
 
-##Trophies
+## Trophies
 - The club organising each event shall be responsible for any trophies/prizes awarded at its
 event.
 - The designated British Roller Ski Championship organisers are responsible for trophies/prizes for this competition. They may approach the GBS Nordic Committee, clubs or other organisations for support.

@@ -1,7 +1,7 @@
 
 # British Roller Ski Series Rules of Competition
 
-#### Revision for 2024
+#### *Revision for 2024*
 
 ## Introduction
 The British Roller Ski Series was re-established in 2004 by the former Snowsport GB Nordic Executive to encourage increased participation in the sport of cross-country skiing. An important aim of the Series is to encourage participation and to offer fair competition open to all standards of skiers.

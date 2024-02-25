@@ -9,7 +9,9 @@ The British Roller Ski Series was re-established in 2004 by the former Snowsport
 The organisers of any Series race must agree to abide by these general rules, although the actual local race rules are the responsibility of each event organiser. They should follow generally accepted roller ski race rules with modifications for local conditions; the Series Directors are available for advice.
 
 ## General
-- Series Directors will be appointed each year. For 2024 the Series Directors are Adam Pinney,aapinney@ntlworld.com, Tel.: 01582 602995 and Peter Thomson, peter@urban-ski-patrol.co.uk.
+- Series Directors will be appointed each year. For 2024 the Series Directors are:
+    - Adam Pinney,aapinney@ntlworld.com, Tel.: 01582 602995
+    - Peter Thomson, peter@urban-ski-patrol.co.uk.
 - The Series Directors will adjudicate on rules and any disputes that cannot be resolved by race organisers.
 - Competitions are open to all nationalities although there may be specific trophies awarded to UK citizens or residents of the UK.
 - __All prospective race organisers must inform the Series Directors of their intention to run a British Series event. The Series Directors must approve the request and inform the race organisers accordingly.__

@@ -37,5 +37,5 @@ $.each(raceData.races,function(i,race){
 	$('#raceList').append('<h5>'+race.raceVenue+'</h5>');
 	$('#raceList').append('<h5>'+race.raceOrganiser+'</h5>');
 	$('#raceList').append('<p>'+race.raceNotes+'</p>');
-	$('#raceMenu').append('<dd><a style="color: white;"href="#'+race.raceID+'" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">'+race.raceVenue+'</a></dd>  
+	$('#raceMenu').append('<dd><a style="color: white;"href="#'+race.raceID+'" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">'+race.raceVenue+'</a></dd>');  
    });

@@ -1,8 +1,8 @@
-$(function(){
-	$.getJSON("./assets/races.json", function(json) {
-    console.log(json); 
-	$('#raceList').append('<h1> Hello World </h1>');
-});
+//$(function(){
+//	$.getJSON("./assets/races.json", function(json) {
+  //  console.log(json); 
+//	$('#raceList').append('<h1> Hello World </h1>');
+//});
 	//$.getJSON("./assets/races.json",function(json){
 	//	console.log(json);
 		//$('#raceList').append('<h1>'+json.races[0].raceID+'/h1>');
@@ -15,4 +15,16 @@ $(function(){
         //	});
 	//});
 	//});
+//});
+
+$.getJSON( "./assets/races.json", function( data ) {
+  var items = [];
+  $.each( data.races, function( val ) {
+    items.push( "<li id='" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "#raceList" );
 });

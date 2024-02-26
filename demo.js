@@ -9,4 +9,5 @@ $(function(){
 	//	$('#raceList').append('<p>'+race.raceDetails+'</p>');
         //	});
 	//});
+	});
 });

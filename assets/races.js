@@ -1,3 +1,4 @@
+"""" module.exports = data; """" 
 var data = {
     "raceYear": 2024,
     "races": [

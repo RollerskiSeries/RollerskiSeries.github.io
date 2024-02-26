@@ -79,6 +79,8 @@ body {font-size:16px;}
 <!-- W3.CSS Container -->
 <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="/demo.js"></script>
 <script>
 // Script to open and close sidebar
 function w3_open() {
@@ -91,6 +93,13 @@ function w3_close() {
   document.getElementById("myOverlay").style.display = "none";
 }
 
+$().ready(function(){
+    $.getJSON( "/data.json", function( data ) {
+    console.log(data);
+    $("#text").html(data["text"]);
+  });
+});	
+	
 function import_race_data() {
 
     //var races2024 = { "raceYear": 2024, "races": [ { "raceID": "race3", "raceName": "Race 1", "raceDate": 2024, "raceDetails": "blah blah blah"},  { "raceID": "race4", "raceName": "Race 2", "raceDate": 2024, "raceDetails": "blah blah blah"} ] };

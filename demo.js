@@ -14,9 +14,9 @@ $().ready(function(){
          p.textContent = race.raceDetails;
          el.appendChild(h1);
          el.appendChild(p);
-	 racesElement.appendChild(el);
+         racesElement.appendChild(el);
        }
-	//update the html
- 	$("#raceList").append(racesElement);
+        //update the html
+        $("#raceList").append(racesElement);
   });
 });

@@ -5,7 +5,5 @@ $().ready(function(){
                 $('#raceList').append('<h1>'+race.raceName+'</h1>');
 		$('#raceList').append('<p>'+race.raceDetails+'</p>');
             });
-        }).error(function(){
-            console.log('error');
         });
     });

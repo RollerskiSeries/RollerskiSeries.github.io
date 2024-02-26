@@ -1,7 +1,7 @@
 $().ready(function(){
     $.getJSON( "/assets/races.json", function( raceData ) {
           
-   var doc = document.getElementById("raceList");
+   var doc = $("#raceList");
    
     //remove the placeholder text
 	doc.innerHTML = "";

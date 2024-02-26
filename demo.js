@@ -3,7 +3,7 @@ $().ready(function(){
 	    
     //append the race details
    var racesElement = document.createElement("div");
-   for (var race of raceData.races) 
+   $for (var race of raceData.races) 
        {
          //create an entry for each race
          var el = document.createElement("div");

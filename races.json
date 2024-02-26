@@ -1,0 +1,26 @@
+{
+    "raceYear": 2024
+    "races": [
+        {
+          "raceID": "race1"
+          "raceName": "Race 1",
+          "raceDate": 2024,
+          "raceDetails": "blah blah blah",
+        }
+      
+       {
+          "raceID": "race2"
+          "raceName": "Race 2",
+          "raceDate": 2024,
+          "raceDetails": "blah blah blah",
+        }
+
+       {
+          "raceID": "race3"
+          "raceName": "Race 3",
+          "raceDate": 2024,
+          "raceDetails": "blah blah blah",
+        }
+      
+    ]
+}

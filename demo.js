@@ -1,5 +1,5 @@
 $(function(){
-	$.getJSON("/assets/races.json",function(data){
+	$.getJSON("./assets/races.json",function(data){
 	$('#raceList').append('<h1>'+data.races.raceID+'/h1>');
 	//$('#raceList').append('<h1>'+race.raceName+'</h1>');
 	//$('#raceList').append('<p>'+race.raceDetails+'</p>');

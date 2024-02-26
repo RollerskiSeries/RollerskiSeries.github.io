@@ -91,43 +91,7 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
-}
-
-$().ready(function(){
-    $.getJSON( "/data.json", function( data ) {
-    console.log(data);
-    $("#text").html(data["text"]);
-  });
-});	
-	
-function import_race_data() {
-
-    //var races2024 = { "raceYear": 2024, "races": [ { "raceID": "race3", "raceName": "Race 1", "raceDate": 2024, "raceDetails": "blah blah blah"},  { "raceID": "race4", "raceName": "Race 2", "raceDate": 2024, "raceDetails": "blah blah blah"} ] };
-    import * as races2024 from './assets/races.json' assert { type: "json" };
-    var raceData = races2024.races;
-    var doc = document.getElementById("raceList");
-
-    //remove the placeholder text
-	doc.innerHTML = "";
-    
-    //append the race details
-    for (var race of raceData) 
-    {
-      //create an entry for each race
-      const el = document.createElement("div");
-      el.setAttribute('id', race.raceID);
-      const h1 = document.createElement("H1");
-      h1.textContent = race.raceName;
-      const p = document.createElement("P");
-      p.textContent = race.raceDetails;
-      el.appendChild(h1);
-      el.appendChild(p);
-      doc.appendChild(el);
-    }
-    
-
-}
-import_race_data();
+}	
 </script>
 
 

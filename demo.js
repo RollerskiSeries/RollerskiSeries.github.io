@@ -1,30 +1,31 @@
-//$(function(){
-//	$.getJSON("./assets/races.json", function(json) {
-  //  console.log(json); 
-//	$('#raceList').append('<h1> Hello World </h1>');
-//});
-	//$.getJSON("./assets/races.json",function(json){
-	//	console.log(json);
-		//$('#raceList').append('<h1>'+json.races[0].raceID+'/h1>');
-	//$('#raceList').append('<h1>'+race.raceName+'</h1>');
-	//$('#raceList').append('<p>'+race.raceDetails+'</p>');
-         //   console.log('success');
-          //  $.each(data.races.race,function(i,race){
-        //	$('#raceList').append('<h1>'+race.raceName+'</h1>');
-	//	$('#raceList').append('<p>'+race.raceDetails+'</p>');
-        //	});
-	//});
-	//});
-//});
+var raceData = {
+    "raceYear": 2024,
+    "races": [
+        {
+          "raceID": "race1",
+          "raceName": "Race 1",
+          "raceDate": 2024,
+          "raceDetails": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+      
+       {
+          "raceID": "race2",
+          "raceName": "Race 2",
+          "raceDate": 2024,
+          "raceDetails": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
 
-$.getJSON( "./assets/races.json", function( data ) {
-  var items = [];
-  $.each( data.races, function( val ) {
-    items.push( "<li id='" + val + "</li>" );
-  });
- 
-  $( "<ul/>", {
-    "class": "my-new-list",
-    html: items.join( "" )
-  }).appendTo( "#raceList" );
-});
+       {
+          "raceID": "race3",
+          "raceName": "Race 3",
+          "raceDate": 2024,
+          "raceDetails": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        }
+      
+    ]
+}
+
+$.each(raceData.races,function(i,race){
+        $('#raceList').append('<h1>'+race.raceName+'</h1>');
+		$('#raceList').append('<p>'+race.raceDetails+'</p>');
+   });

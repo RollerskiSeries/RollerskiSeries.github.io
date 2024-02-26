@@ -2,7 +2,7 @@ var raceData = {
     "raceYear": 2024,
     "races": [
 	{
-		"raceID": "race1"
+		"raceID": "race1",
 		"raceVenue": "Hayes",
 		"raceOrganiser": "LRNSC", 
 		"raceName": "12 km time trial – FT",
@@ -11,7 +11,7 @@ var raceData = {
 	},
 
 	{
-		"raceID": "race2"
+		"raceID": "race2",
 		"raceVenue": "Huntly",
 		"raceOrganiser": "HNSC", 
 		"raceName": "Huntly Sprints – FT",
@@ -20,7 +20,7 @@ var raceData = {
 	},
 		
 	{
-		"raceID": "race3"
+		"raceID": "race3",
 		"raceVenue": "Rhynie A941",
 		"raceOrganiser": "HNSC", 
 		"raceName": "Clashindarroch Hill Climb – CT",

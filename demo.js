@@ -1,4 +1,4 @@
-$().ready(function(){
+$(function(){
         $.getJSON("/assets/races.json",function(data){
             console.log('success');
             $.each(data.races.race,function(i,race){

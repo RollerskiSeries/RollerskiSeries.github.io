@@ -2,6 +2,7 @@ var raceData = {
     "raceYear": 2024,
     "races": [
 	{
+		"raceID": "race1"
 		"raceVenue": "Hayes",
 		"raceOrganiser": "LRNSC", 
 		"raceName": "12 km time trial – FT",
@@ -10,6 +11,7 @@ var raceData = {
 	},
 
 	{
+		"raceID": "race2"
 		"raceVenue": "Huntly",
 		"raceOrganiser": "HNSC", 
 		"raceName": "Huntly Sprints – FT",
@@ -18,6 +20,7 @@ var raceData = {
 	},
 		
 	{
+		"raceID": "race3"
 		"raceVenue": "Rhynie A941",
 		"raceOrganiser": "HNSC", 
 		"raceName": "Clashindarroch Hill Climb – CT",
@@ -34,4 +37,5 @@ $.each(raceData.races,function(i,race){
 	$('#raceList').append('<h5>'+race.raceVenue+'</h5>');
 	$('#raceList').append('<h5>'+race.raceOrganiser+'</h5>');
 	$('#raceList').append('<p>'+race.raceNotes+'</p>');
+	$('#raceMenu').append('<dd><a style="color: white;"href="#'+race.raceID+'" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">'+race.raceVenue'</a></dd>  
    });

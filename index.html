@@ -94,8 +94,7 @@ function w3_close() {
 function import_race_data() {
 
     //var races2024 = { "raceYear": 2024, "races": [ { "raceID": "race3", "raceName": "Race 1", "raceDate": 2024, "raceDetails": "blah blah blah"},  { "raceID": "race4", "raceName": "Race 2", "raceDate": 2024, "raceDetails": "blah blah blah"} ] };
-    //import races2024 from './assets/races.json' assert {type: 'json'};
-    const races2024 = require('./assets/races.json');
+    import * as races2024 from './assets/races.json';
     var raceData = races2024.races;
     var doc = document.getElementById("raceList");
 

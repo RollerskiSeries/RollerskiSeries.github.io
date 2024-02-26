@@ -1,4 +1,4 @@
-{
+var data = {
     "raceYear": 2024,
     "races": [
         {

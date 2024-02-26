@@ -4,7 +4,7 @@ $().ready(function(){
 	$("#raceList").append("Hello World1");
 	    
 	    //append the race details
-	   var racesElement = document.createElement("div");
+	var racesElement = document.createElement("div");
 	   $for (var race of raceData.races) 
 		{
 		 //create an entry for each race

@@ -1,6 +1,7 @@
 $(function(){
 	$.getJSON("./assets/races.json", function(json) {
     console.log(json); 
+	$('#raceList').append('<h1> Hello World </h1>');
 });
 	//$.getJSON("./assets/races.json",function(json){
 	//	console.log(json);

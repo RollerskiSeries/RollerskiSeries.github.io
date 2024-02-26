@@ -1,12 +1,8 @@
 $().ready(function(){
     $.getJSON( "/assets/races.json", function( raceData ) {
-          
-   var doc = $("#raceList");
-   
-    //remove the placeholder text
-	doc.innerHTML = "";
-    
+	    
     //append the race details
+   const racesElement = document.createElement("div");
    for (var race of raceData.races) 
        {
          //create an entry for each race
@@ -18,7 +14,9 @@ $().ready(function(){
          p.textContent = race.raceDetails;
          el.appendChild(h1);
          el.appendChild(p);
-         doc.appendChild(el);
+	 racesElement.appendChild(el);
        }
+	//update the html
+ 	$("#raceList").html(racesElement);
   });
 });

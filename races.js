@@ -33,5 +33,5 @@ $.each(raceData.races,function(i,race){
 	$('#raceList').append('<h3>'+race.raceDate+'</h3>');
 	$('#raceList').append('<h5>'+race.raceVenue+'</h5>');
 	$('#raceList').append('<h5>'+race.raceOrganiser+'</h5>');
-	$('#raceList').append('<p>'+race.raceDetails+'</p>');
+	$('#raceList').append('<p>'+race.raceNotes+'</p>');
    });

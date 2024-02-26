@@ -25,7 +25,3 @@ var raceData = {
     ]
 }
 
-$.each(raceData.races,function(i,race){
-        $('#raceList').append('<h1>'+race.raceName+'</h1>');
-		$('#raceList').append('<p>'+race.raceDetails+'</p>');
-   });

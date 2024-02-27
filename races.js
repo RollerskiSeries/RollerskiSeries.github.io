@@ -1,7 +1,10 @@
+// Webpage Title
 var title = "GB Rollserski Series 2024"
 
+// Some intro text underneath the main title
 var intro = "Lorem ipsum dolor sit amet"
 
+// Information about all the races in the Series (keep the format!)
 var raceData = {
     "raceYear": 2024,
     "races": [

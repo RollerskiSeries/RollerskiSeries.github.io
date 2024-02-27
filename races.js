@@ -33,6 +33,7 @@ var raceData = {
 //DO NOT EDIT BELOW HERE!!!
 $.each(raceData.races,function(i,race){
         $('#raceList').append('<div id ="'+race.raceID+'"></div>');
+	$('#'+race.raceID).append('<br>');
         $('#'+race.raceID).append('<h3>'+race.raceDate+'</h3>');
         $('#'+race.raceID).append('<h1>'+race.raceName+'</h1>');
 	$('#'+race.raceID).append('<h3>'+race.raceVenue+' - '+race.raceOrganiser+'</h3>');

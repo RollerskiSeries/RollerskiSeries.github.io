@@ -1,7 +1,7 @@
 # RollerskiSeries.github.io
 
 ## Making Changes
-To publish changes, edit the file you want and then "Commit changes" to "main". This will push an update online after a few minutes. All changes are recorded so it is possible to revert to an old version. 
+To publish changes, edit the file you want and then "Commit changes" to "directly to the main branch". This will push an update online after a few minutes. All changes are recorded so it is possible to revert to an old version. 
 
 ## Rules
 These are written in markdown in rules.md. This is quite flexible to edit

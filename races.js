@@ -32,9 +32,11 @@ var raceData = {
 
 //DO NOT EDIT BELOW HERE!!!
 $.each(raceData.races,function(i,race){
-        $('#raceList').append('<h3 id="'+race.raceID+'" >'+race.raceDate+'</h3>');
-        $('#raceList').append('<h1>'+race.raceName+'</h1>');
-	$('#raceList').append('<h3>'+race.raceVenue+' - '+race.raceOrganiser+'</h3>');
-	$('#raceList').append('<p>'+race.raceNotes+'</p>');
+        $('#raceList').append('<div id ="'+race.raceID+'"></div>');
+        $('#'+race.raceID).append('<h3>'+race.raceDate+'</h3>');
+        $('#'+race.raceID).append('<h1>'+race.raceName+'</h1>');
+	$('#'+race.raceID).append('<h3>'+race.raceVenue+' - '+race.raceOrganiser+'</h3>');
+	$('#'+race.raceID).append('<p>'+race.raceNotes+'</p>');
+	$('#'+race.raceID).append('<br>');
 	$('#racesMenu').append('<dd><a style="color: white;"href="#'+race.raceID+'" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">'+race.raceName+'</a></dd>');  
    });

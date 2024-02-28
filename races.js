@@ -86,7 +86,7 @@ $('#header').append('<h1 style = "color:rgb(0,56,101)" class="w3-jumbo"><b>'+tit
 $('#header').append('<p>'+intro+'</p>')
 
 // Add a simple link to the rules
-$('#header').append('<p><a href="./rules.md" >Click here reveiw the Series rules. </a></p>')
+$('#header').append('<p><a href="./rules" >Click here reveiw the Series rules. </a></p>')
 
 // Add Championship race details
 $('#championshipRace').append('<h1 style = "color:rgb(0,56,101)"><a href="#champs" style="text-decoration:none">'+championshipRaceHeader+'</a></h1>')

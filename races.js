@@ -38,6 +38,38 @@ var raceData = {
 		"raceDate": "Sun 26 May",
 		"raceNotes": "<ul><li>Minimum age 11.</li><li> Any type of classic roller, must have ratchet.</li><li> 8.05/4.85 km climbs.</li><li> British Championship (TBC).</li></ul>"
 	},
+	{
+		"raceID": "race4",
+		"raceVenue": "Hayes",
+		"raceOrganiser": "LNRSC", 
+		"raceName": "12 km mass start – CT",
+		"raceDate": "Sun 23 June",
+		"raceNotes": "<ul><li>Starts at 11:00.</li><li> Swenor Alutech/No. 2 rubber wheels and ratchet, or no faster.</li><li> (6/3 km junior/novice race).</li></ul>"
+	},
+	{
+		"raceID": "race5",
+		"raceVenue": "Hayes",
+		"raceOrganiser": "LNRSC", 
+		"raceName": "24 km (16 lap) mass start – FT",
+		"raceDate": "Sun 21 July",	
+		"raceNotes": "<ul><li>Starts at 11:00.</li><li> Marwe 610s/US0 wheels or no faster.</li><li> (12/6 km junior/novice races).</li></ul>"
+	},
+	{
+		"raceID": "race6",
+		"raceVenue": "Fife Cycle Park",
+		"raceOrganiser": "Fife Nordic Ski Club", 
+		"raceName": "Fife races, 1.6 / 3.2 / 6.4 / 9.6k mass start – FT",
+		"raceDate": "Sat 3 Aug.",
+		"raceNotes": "<ul><li> Start time TBC.</li><li> Marwe roller skis provided by organisers.</li></ul>"
+	},
+	{
+		"raceID": "race7",
+		"raceVenue": "Huntly",
+		"raceOrganiser": "HNSC", 
+		"raceName": "Huntly 3.5/5.4/7.1 km – FT",
+		"raceDate": "Sat 14 Sept.",
+		"raceNotes": "<ul><li> Registration from 9 a.m, races start at 10:00.</li><li> Relays follow main races.</li><li> Marwe roller skis provided by organisers.</li></ul>"
+	},
     ]
 }
 

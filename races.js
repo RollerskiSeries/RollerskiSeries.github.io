@@ -1,8 +1,12 @@
 // Webpage Title
-var title = "GB Rollserski Series 2024"
+var title = "2024 Series"
 
 // Some intro text underneath the main title
-var intro = "Lorem ipsum dolor sit amet"
+var intro = "The 2024 GB Rollerski Series takes place across the UK incorporating events from London to the Scottish Highlands! Racers can score points by competing at events organised by local clubs and stake their claim to the Series Title!"
+
+//Championshipü race details
+var championshipRaceHeader = "(TBC) Clashindarroch Hill Climb "
+var championshipRaceBlurb = "Classic technique time trial format hill race following the A941 from Rhynie to the entrance to Clashindarroch Forest, one of the few regularly pisted Nordic Ski  ares in the UK. Climbing over 200m, the route winds and undulates through scenic Aberdeenshire countryside. "
 
 // Information about all the races in the Series (keep the format!)
 var raceData = {
@@ -41,10 +45,14 @@ var raceData = {
 
 //Add Title and intro text div
 $('#header').append('<h1 style = "color:rgb(0,56,101)" class="w3-jumbo"><b>'+title+'</b></h1>')
-$('#header').append('<div class="w3-container" id="introText" style="margin-top:75px"></div>')
 
 //Add intro text
-$('#introText').append('<p>'+intro+'</p>')
+$('#header').append('<p>'+intro+'</p>')
+
+//Add CHampionship race details
+$('#championshipRace').append('<h1 style = "color:rgb(0,56,101)">'+championshipRaceHeader+'</h1>')
+$('#championshipRace').append('<p>'+championshipRaceBlurb+'</p>')
+
 
 // Read the race data
 $.each(raceData.races,function(i,race){

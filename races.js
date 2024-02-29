@@ -16,7 +16,7 @@ var raceData = {
 		"raceID": "race1",
 		"raceVenue": "Hayes",
 		"raceOrganiser": "LRNSC", 
-		"raceName": "12 km time trial – FT",
+		"raceName": "Hayes 12 km time trial – FT",
 		"raceDate": "Sun 14 April",
 		"raceNotes": "<ul><li> Starts at 11:00.</li><li> Marwe 610s/US0 wheels or no faster (6/3 km junior/novice races). </li></ul>"
 	},
@@ -42,7 +42,7 @@ var raceData = {
 		"raceID": "race4",
 		"raceVenue": "Hayes",
 		"raceOrganiser": "LNRSC", 
-		"raceName": "12 km mass start – CT",
+		"raceName": "Hayes 12 km mass start – CT",
 		"raceDate": "Sun 23 June",
 		"raceNotes": "<ul><li>Starts at 11:00.</li><li> Swenor Alutech/No. 2 rubber wheels and ratchet, or no faster.</li><li> (6/3 km junior/novice race).</li></ul>"
 	},
@@ -50,25 +50,49 @@ var raceData = {
 		"raceID": "race5",
 		"raceVenue": "Hayes",
 		"raceOrganiser": "LNRSC", 
-		"raceName": "24 km (16 lap) mass start – FT",
+		"raceName": "Hayes 24 km mass start – FT",
 		"raceDate": "Sun 21 July",	
-		"raceNotes": "<ul><li>Starts at 11:00.</li><li> Marwe 610s/US0 wheels or no faster.</li><li> (12/6 km junior/novice races).</li></ul>"
+		"raceNotes": "<ul><li>Starts at 11:00.</li><li> 16 laps.</li><li> Marwe 610s/US0 wheels or no faster.</li><li> (12/6 km junior/novice races).</li></ul>"
 	},
 	{
 		"raceID": "race6",
 		"raceVenue": "Fife Cycle Park",
 		"raceOrganiser": "Fife Nordic Ski Club", 
-		"raceName": "Fife races, 1.6 / 3.2 / 6.4 / 9.6k mass start – FT",
+		"raceName": "Fife Races – FT",
 		"raceDate": "Sat 3 Aug.",
-		"raceNotes": "<ul><li> Start time TBC.</li><li> Marwe roller skis provided by organisers.</li></ul>"
+		"raceNotes": "<ul><li> 1.6 / 3.2 / 6.4 / 9.6k mass start.</li><li> Start time TBC.</li><li> Marwe roller skis provided by organisers.</li></ul>"
 	},
 	{
 		"raceID": "race7",
 		"raceVenue": "Huntly",
 		"raceOrganiser": "HNSC", 
-		"raceName": "Huntly 3.5/5.4/7.1 km – FT",
+		"raceName": "Huntly Championships – FT",
 		"raceDate": "Sat 14 Sept.",
-		"raceNotes": "<ul><li> Registration from 9 a.m, races start at 10:00.</li><li> Relays follow main races.</li><li> Marwe roller skis provided by organisers.</li></ul>"
+		"raceNotes": "<ul><li> 3.5/5.4/7.1 km.</li><li> Registration from 9 a.m, races start at 10:00.</li><li> Relays follow main races.</li><li> Marwe roller skis provided by organisers.</li></ul>"
+	},
+	{
+		"raceID": "race8",
+		"raceVenue": "Glenmore Lodge",
+		"raceOrganiser": "CBNSC", 
+		"raceName": "Cairngorm Hill Climb – FT",
+		"raceDate": "Sun 15 Sept.",
+		"raceNotes": "<ul><li> Start TBC.</li><li> Distance/roller type TBC.</li></ul>"
+	},
+	{
+		"raceID": "race9",
+		"raceVenue": "Redbridge",
+		"raceOrganiser": "Hyde Park", 
+		"raceName": "Redbridge Races - TBC",
+		"raceDate": "Sun 29 Sept.",
+		"raceNotes": "<ul><li> Details TBC.</li></ul>"
+	},
+	{
+		"raceID": "race10",
+		"raceVenue": "Hayes",
+		"raceOrganiser": "LRNSC", 
+		"raceName": "Hayes 24 km time trial – CT",
+		"raceDate": "Sun 29 Sept.",
+		"raceNotes": "<ul><li> Starts at 11:00.</li><li> 16 laps.</li><li> Swenor Alutech/No. 2 rubber wheels and ratchet, or no faster.</li><li> (12/6 km junior/novice race).</li></ul>"
 	},
     ]
 }

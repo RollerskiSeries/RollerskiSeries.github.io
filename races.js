@@ -8,6 +8,15 @@ var intro = "The 2024 GB Rollerski Series takes place across the UK incorporatin
 var championshipRaceHeader = "(TBC) Clashindarroch Hill Climb "
 var championshipRaceBlurb = "Classic technique time trial format hill race following the A941 from Rhynie to the entrance to Clashindarroch Forest, one of the few regularly pisted Nordic Ski  ares in the UK. Climbing over 200m, the route winds and undulates through scenic Aberdeenshire countryside. "
 
+// Rules details
+var rulesText = "Whilst each local race will have their own race rules in place, organisers have agreed to adhere to the general rules laid out in the GB Series rules. These rules cover categories, the make-up of the GB series, scoring and awarding the title of British champion."
+var rulePoints = [
+    '<a href="./rules" >Click here to reveiw the full Series rules for 2024.</a>',
+    "Racers accumulate points from their best 5 races in the Series",
+    "At least one race of the 5 must be 'cross-border' (i.e 4 in Scotland plus 1 in England)",
+    "The Serties is open to competitors of all nationalities, however the evenutal Series Champion must be British",
+]
+
 // Information about all the races in the Series (keep the format!)
 var raceData = {
     "raceYear": 2024,
@@ -100,7 +109,6 @@ var raceData = {
 
 
 
-
 // DO NOT EDIT BELOW HERE!!! jQuery to do formatting...
 
 // Add Title and intro text div
@@ -109,8 +117,14 @@ $('#header').append('<h1 style = "color:rgb(0,56,101)" class="w3-jumbo"><b>'+tit
 // Add intro text
 $('#header').append('<p>'+intro+'</p>')
 
-// Add a simple link to the rules
-$('#header').append('<p><a href="./rules" >Click here reveiw the Series rules. </a></p>')
+// Add a summary of the rules
+$('#rulesSummary').append('<p>'+rulesText+'</p>')
+
+// List some important points
+$('#rulesSummary').append('<ul id="rulesBulletPoints"></ul>')
+$.each(rulePoints,function(i, val){
+	$('#rulesBulletPoints').append('<li>'+val+'</li>');
+});
 
 // Add Championship race details
 $('#championshipRace').append('<h1 style = "color:rgb(0,56,101)"><a href="#champs" style="text-decoration:none">'+championshipRaceHeader+'</a></h1>')

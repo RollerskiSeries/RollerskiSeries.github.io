@@ -134,9 +134,8 @@ $('#championshipRace').append('<p>'+championshipRaceBlurb+'</p>')
 // Read the race data
 $.each(raceData.races,function(i,race){
         
-    // Create a div and add a space
+    // Create a div
         $('#raceList').append('<div id ="'+race.raceID+'"></div>');
-	$('#'+race.raceID).append('<br>');
     // Put the date in
         $('#'+race.raceID).append('<h3>'+race.raceDate+'</h3>');
     // give it a title based on the race name

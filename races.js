@@ -1,11 +1,11 @@
 // Webpage Title
-var title = "2024 Series"
+var title = "GB Rolerski Series 2024"
 
 // Some intro text underneath the main title
 var intro = "The 2024 GB Rollerski Series takes place across the UK incorporating events from London to the Scottish Highlands! Racers can score points by competing at events organised by local clubs and stake their claim to the Series Title!"
 
 // Championship race details
-var championshipRaceHeader = "(TBC) Clashindarroch Hill Climb "
+var championshipRaceHeader = "Clashindarroch Hill Climb "
 var championshipRaceBlurb = "Classic technique time trial format hill race following the A941 from Rhynie to the entrance to Clashindarroch Forest, one of the few regularly pisted Nordic Ski  ares in the UK. Climbing over 200m, the route winds and undulates through scenic Aberdeenshire countryside. "
 
 // Rules details
@@ -111,11 +111,11 @@ var raceData = {
 
 // DO NOT EDIT BELOW HERE!!! jQuery to do formatting...
 
-// Add Title and intro text div
-$('#header').append('<h1 style = "color:rgb(0,56,101)" class="w3-jumbo"><b>'+title+'</b></h1>')
+// Add Title
+$('#header').append('<h1 style = "color:white" class="w3-jumbo"><b>'+title+'</b></h1>')
 
 // Add intro text
-$('#header').append('<p>'+intro+'</p>')
+$('#introText').append('<p>'+intro+'</p>')
 
 // Add a summary of the rules
 $('#rulesSummary').append('<p>'+rulesText+'</p>')

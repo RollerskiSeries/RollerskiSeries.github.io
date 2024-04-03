@@ -4,16 +4,19 @@
 <title>Rollerski Series webpage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-h2,h3,h4,h5 {font-family: "Poppins", sans-serif; color:rgb(0,56,101)}
-h1 {font-family: "Poppins", sans-serif; color:rgb(203,51,59)}
-body {font-family: "Poppins", sans-serif}
+h2,h3,h4,h5 {font-family: "Lato", sans-serif; color:rgb(0,56,101)}
+h1 {font-family: "Lato", sans-serif; color:rgb(203,51,59)}
+body {font-family: "Lato", sans-serif}
 body {font-size:16px;}
 .parallax {
   /* The image used */
-  background-image: url("/assets/Rolerskier.jpg");
+  background-image: url("/assets/rollerskier.jpeg");
+  background-color:rgba(1, 24, 136, 0.535);
 
   /* Set a specific height */
   min-height: 500px; 
@@ -24,25 +27,66 @@ body {font-size:16px;}
   background-repeat: no-repeat;
   background-size: cover;
 }
-#overlay {
-  position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+/* This allows designers to put text in front of a picture */
+
+/* Image and text go inside this div */
+.overlay-content {
+    text-align: center;
+    position: relative;
+}
+
+/* Use this div to lighten an image and put dark text overlayed */
+.overlay-lighten {
+    opacity: 0.3;
+  }
+  
+/* Use this div to darken an image and put light text overlayed */
+    .overlay-darken {
+    filter: brightness(70%);
+  }
+
+/* Use this class in a div, h2, or p to center the overlayed text */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>
 </head>
 <body>
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" style=" background-color:rgb(0,56,101); z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a style="color: white;" class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      ☰
+    </a>
+    <a style="color: white;" href="#" class="w3-bar-item w3-button">HOME</a>
+    <a style="color: white;" href="#championshipRace" class="w3-bar-item w3-button w3-hide-small">2024 BRITISH CHAMPIONSHIP</a>
+    <a style="color: white;" href="/rules" class="w3-bar-item w3-button w3-hide-small">RULES</a>
+    <a style="color: white;" href="#races" class="w3-bar-item w3-button w3-hide-small">SERIES RACES</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#championshipRace" class="w3-bar-item w3-button" onclick="toggleFunction()">GB CHAMPS</a>
+    <a href="/rules" class="w3-bar-item w3-button" onclick="toggleFunction()">RULES</a>
+    <a href="#races" class="w3-bar-item w3-button" onclick="toggleFunction()">SERIES RACES</a>
+  </div>
+</div>  
+
+<!-- Sidebar/menu 
+<nav class="sidebar" style=" background-color:rgb(0,56,101); z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
   <div class="w3-bar-block">
     <a style="color: white;" href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
     <a style="color: white;"href="#championshipRace" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">2024 British Championship</a> 
@@ -52,20 +96,19 @@ body {font-size:16px;}
     </dl>
   </div>
 </nav>
+-->
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-xlarge w3-padding" style="color: white; background-color:rgb(0,56,101);">
-  <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a>
-  <span>GB Rollerski Series</span>
+<!-- Top menu on all screens 
+<header>
+  <button class="openbtn" style="color: white; background-color:rgb(0,56,101)" onclick="openNav()">☰ Open Sidebar</button>
 </header>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+-->
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px;margin-right:0px">
-<div class="parallax">
-  <div class="w3-container" style="margin-top:100px" id="header" ></div>
+<div class="overlay-content">
+  <div class="parallax overlay-darken">&nbsp;</div>
+  <div class="overlay-text" style="width: 75%; min-width: 350px;" id="header">
+  </div>
 </div>
 
   <!-- Intro text -->
@@ -95,16 +138,38 @@ body {font-size:16px;}
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="/races.js"></script>
 <script>
+
 // Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
+//function openNav() {
+//  document.getElementById("mySidebar").style.width = "250px";
+// document.getElementById("main").style.marginLeft = "250px";
+//}
+
+//function closeNav() {
+//  document.getElementById("mySidebar").style.width = "0";
+//  document.getElementById("main").style.marginLeft= "0";
+//}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-blue";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-blue", "");
+    }
 }
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}	
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
 
 </script>
 </body>

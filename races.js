@@ -1,5 +1,5 @@
 // Webpage Title
-var title = "GB Rolerski Series 2024"
+var title = "GB Rollerski Series 2024"
 
 // Some intro text underneath the main title
 var intro = "The 2024 GB Rollerski Series takes place across the UK incorporating events from London to the Scottish Highlands! Racers can score points by competing at events organised by local clubs and stake their claim to the Series Title!"
@@ -112,7 +112,7 @@ var raceData = {
 // DO NOT EDIT BELOW HERE!!! jQuery to do formatting...
 
 // Add Title
-$('#header').append('<h1 style = "color:white" class="w3-jumbo"><b>'+title+'</b></h1>')
+$('#header').append('<h1 style = "margin-top:200px; color:white" class="w3-jumbo"><b>'+title+'</b></h1>')
 
 // Add intro text
 $('#introText').append('<p>'+intro+'</p>')

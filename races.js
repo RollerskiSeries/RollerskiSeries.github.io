@@ -7,6 +7,7 @@ var intro = "The 2024 GB Rollerski Series takes place across the UK incorporatin
 // Championship race details
 var championshipRaceHeader = "Clashindarroch Hill Climb "
 var championshipRaceBlurb = "Classic technique time trial format hill race following the A941 from Rhynie to the entrance to Clashindarroch Forest, one of the few regularly pisted Nordic Ski  ares in the UK. Climbing over 200m, the route winds and undulates through scenic Aberdeenshire countryside. "
+var champsDate = "Sun 26 May"
 
 // Rules details
 var rulesText = "Whilst each local race will have their own race rules in place, organisers have agreed to adhere to the general rules laid out in the GB Series rules. These rules cover categories, the make-up of the GB series, scoring and awarding the title of British champion."
@@ -128,6 +129,7 @@ $.each(rulePoints,function(i, val){
 
 // Add Championship race details
 $('#championshipRace').append('<h1 style = "color:rgb(203,51,59)"><a href="#champs" style="text-decoration:none">'+championshipRaceHeader+'</a></h1>')
+$('#championshipRace').append('<h1 style = "color:rgb(203,51,59)">'+champsDate+'</h1>')
 $('#championshipRace').append('<p>'+championshipRaceBlurb+'</p>')
 
 

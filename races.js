@@ -136,8 +136,8 @@ $.each(raceData.races,function(i,race){
         
     // Create a div
         $('#raceList').append('<div id ="'+race.raceID+'"></div>');
-    // Put the date in
-        $('#'+race.raceID).append('<h3>'+race.raceDate+'</h3>');
+    // Put the date in (red with calendar icon)
+        $('#'+race.raceID).append('<h3 style="color:rgb(203,51,59)"><i class="fa fa-calendar"x"> '+race.raceDate+'</i></h3>');
     // give it a title based on the race name
         $('#'+race.raceID).append('<h1>'+race.raceName+'</h1>');
     // add the organising club and location

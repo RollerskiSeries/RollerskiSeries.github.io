@@ -9,10 +9,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-h2,h3,h4,h5 {font-family: "Lato", sans-serif; color:rgb(0,56,101)}
-h1 {font-family: "Lato", sans-serif; color:rgb(203,51,59)}
-body {font-family: "Lato", sans-serif}
-body {font-size:16px;}
+body,h1,h2,h3,h4,h5,h6,p {font-family: "Lato", sans-serif; color:rgb(0,56,101)}
+body, html {
+  height: 100%;
+  color: black;
+  line-height: 1.8;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
 .parallax {
   /* The image used */
   background-image: url("/assets/rollerskier.jpeg");
@@ -61,11 +67,20 @@ body {font-size:16px;}
     transform: translate(-50%, -50%);
     }
     
-    .gb-blue {
-        color:#fff!important;
-        background-color:rgb(0,56,101)!important
-        
-    }
+.gb-blue {
+    color:#fff!important;
+    background-color:rgb(0,56,101)!important
+    
+}
+    
+}
+
+a.gb-red-hover:hover {
+    color:#fff!important;
+    background-color:rgb(203,51,59)!important
+    
+}
+
 }
 </style>
 </head>
@@ -74,20 +89,20 @@ body {font-size:16px;}
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
-    <a style="color: white;" class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    <a style="color: white;" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right gb-red-hover" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       ☰
     </a>
-    <a style="color: white;" href="#" class="w3-bar-item w3-button">HOME</a>
-    <a style="color: white;" href="#championshipRace" class="w3-bar-item w3-button w3-hide-small">2024 BRITISH CHAMPIONSHIP</a>
-    <a style="color: white;" href="/rules" class="w3-bar-item w3-button w3-hide-small">RULES</a>
-    <a style="color: white;" href="#races" class="w3-bar-item w3-button w3-hide-small">SERIES RACES</a>
+    <a style="color: white;" href="#" class="w3-bar-item w3-button gb-red-hover">HOME</a>
+    <a style="color: white;" href="#championshipRace" class="w3-bar-item w3-button w3-hide-small gb-red-hover">2024 BRITISH CHAMPIONSHIP</a>
+    <a style="color: white;" href="/rules" class="w3-bar-item w3-button w3-hide-small gb-red-hover">RULES</a>
+    <a style="color: white;" href="#races" class="w3-bar-item w3-button w3-hide-small gb-red-hover">SERIES RACES</a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#championshipRace" class="w3-bar-item w3-button" onclick="toggleFunction()">GB CHAMPS</a>
-    <a href="/rules" class="w3-bar-item w3-button" onclick="toggleFunction()">RULES</a>
-    <a href="#races" class="w3-bar-item w3-button" onclick="toggleFunction()">SERIES RACES</a>
+  <div id="navDemo" class="w3-bar-block gb-blue w3-hide w3-hide-large w3-hide-medium">
+    <a href="#championshipRace" class="w3-bar-item w3-button gb-red-hover" onclick="toggleFunction()">GB CHAMPS</a>
+    <a href="/rules" class="w3-bar-item w3-button gb-red-hover" onclick="toggleFunction()">RULES</a>
+    <a href="#races" class="w3-bar-item w3-button gb-red-hover" onclick="toggleFunction()">SERIES RACES</a>
   </div>
 </div>  
 
@@ -99,28 +114,31 @@ body {font-size:16px;}
 </div>
 
   <!-- Intro text -->
-<div class="w3-container" style="margin-top:40px; background-color:white" id="introText" >Hello World</div>   
+<div class="w3-content w3-container w3-padding-large" style=" margin-top:40px ;background-color:white" id="introText" ></div>   
 
   <!-- Championship Race -->
-<div class="w3-container" style="margin-top:40px; background-color:rgb(0,56,101)" id="championshipRace">
-	<h1 class="w3-xxxlarge" style="color:white"><b>British Championship Race</b></h1>
-  </div>
+<div class="w3-content w3-container w3-padding-large">
+     <h1 class="w3-xxxlarge w3-centre" style=""><b>British Championship Race</b> </h1>
+
+  <div class="w3-row" id="championshipRace">
+    <div class="w3-col m6 w3-center w3-padding-64">
+      <img src="/assets/images/xxx.jpg" class="w3-round w3-image" alt="picture" width="300" style="border-radius:50%">
+    </div>
+  </div>    
+</div>
 
   <!-- Rules Summary -->
-<div class="w3-container" style="margin-top:40px" id="rulesSummary">
+<div class="w3-content w3-container w3-padding-large" id="rulesSummary">
 <h1 class="w3-xxxlarge" style = "color:rgb(0,56,101)" id= "races"><b>Rules</b>
 </div>
   
   <!-- Race Details -->
-<div class="w3-container" style="margin-top:40px" id="raceList">
+<div class="w3-content w3-container w3-padding-64" style="margin-top:40px" id="raceList">
 	<h1 class="w3-xxxlarge" style = "color:rgb(0,56,101)" id= "races"><b>2024 Series Races</b></h1>
   </div>
 
 <!-- End page content -->
 </div>
-
-<!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="/races.js"></script>
@@ -148,5 +166,6 @@ function toggleFunction() {
 }
 
 </script>
+
 </body>
 </html>

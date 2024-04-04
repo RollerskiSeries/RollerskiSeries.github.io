@@ -127,7 +127,7 @@ $.each(rulePoints,function(i, val){
 });
 
 // Add Championship race details
-$('#championshipRace').append('<h1 style = "color:rgb(0,56,101)"><a href="#champs" style="text-decoration:none">'+championshipRaceHeader+'</a></h1>')
+$('#championshipRace').append('<h1 style = "color:rgb(203,51,59)"><a href="#champs" style="text-decoration:none">'+championshipRaceHeader+'</a></h1>')
 $('#championshipRace').append('<p>'+championshipRaceBlurb+'</p>')
 
 

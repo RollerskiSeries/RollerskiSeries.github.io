@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6,p {font-family: "Lato", sans-serif; color:rgb(0,56,101)}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color:rgb(0,56,101)}
 body, html {
   height: 100%;
-  color: black;
+  color:rgb(0,56,101);
   line-height: 1.8;
 }
 
@@ -79,6 +79,65 @@ a.gb-red-hover:hover {
     
 }
 
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(203,51,59);
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(0,56,101);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 }
 </style>
 </head>
@@ -86,14 +145,19 @@ a.gb-red-hover:hover {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
+  <div class="navbar" id="myNavbar">
     <a style="color: white;" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right gb-red-hover" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       ☰
     </a>
     <a style="color: white;" href="#" class="w3-bar-item w3-button gb-red-hover">HOME</a>
     <a style="color: white;" href="#championshipRace" class="w3-bar-item w3-button w3-hide-small gb-red-hover">2024 BRITISH CHAMPIONSHIP</a>
     <a style="color: white;" href="/rules" class="w3-bar-item w3-button w3-hide-small gb-red-hover">RULES</a>
-    <a style="color: white;" href="#races" class="w3-bar-item w3-button w3-hide-small gb-red-hover">SERIES RACES</a>
+    <div class="dropdown" id="myDropdown" href="javascript:void(0);"><button class="dropbtn">SERIES RACES 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="racesMenu">
+    </div>
+    </div>
   </div>
 
   <!-- Navbar on small screens -->
@@ -112,15 +176,15 @@ a.gb-red-hover:hover {
 </div>
 
   <!-- Intro text -->
-<div class="w3-content w3-container w3-padding-64" style=" margin-top:80px ;background-color:white" id="introText" ></div>   
+<div class="w3-content w3-container w3-centre w3-padding-64" style=" margin-top:80px ;background-color:white" id="introText" ></div>   
 
   <!-- Championship Race -->
 <div class="w3-content w3-container w3-padding-64">
-     <h1 class="w3-xxxlarge w3-centre" style=""><b>British Championship Race</b> </h1>
-	<p id="champsRaceDate"></p>
+     <h1 class="w3-xxxlarge w3-centre" style=""><b>British Champs</b> </h1>
+	<p id="champsRaceDate" style="font-size: 28px" ></p>
   <div class="w3-row" id="championshipRace">
     <div class="w3-col m6 w3-center w3-padding-64">
-      <img src="/assets/images/xxx.jpg" class="w3-round w3-image" alt="picture" width="450" style="border-radius:50%">
+      <img src="/assets/images/xxx.jpg" class="w3-round w3-image" alt="picture" width="250" style="border-radius:50%">
     </div>
   </div>    
 </div>
@@ -146,8 +210,9 @@ a.gb-red-hover:hover {
 window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
+    var dropown = document.getElementById("myDropdown");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " gb-blue";
+        navbar.className = "navbar" + " w3-card" + " w3-animate-top" + " gb-blue";
     } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top gb-blue", "");
     }
@@ -164,6 +229,3 @@ function toggleFunction() {
 }
 
 </script>
-
-</body>
-</html>

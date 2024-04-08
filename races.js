@@ -149,5 +149,5 @@ $.each(raceData.races,function(i,race){
 	$('#'+race.raceID).append('<br>');
     
     // Put an entry in the menu
-	$('#racesMenu').append('<dd><a style="color: white;"href="#'+race.raceID+'" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">'+race.raceName+'</a></dd>');  
+	$('#racesMenu').append('<a href="#'+race.raceID+'" onclick="w3_close()" class=" w3-bar-item w3-button">'+race.raceName+'</a>');  
    });

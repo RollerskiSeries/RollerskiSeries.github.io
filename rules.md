@@ -16,6 +16,7 @@ The organisers of any Series race must agree to abide by these general rules, al
 - Competitions are open to all nationalities although there may be specific trophies awarded to UK citizens or residents of the UK.
 - __All prospective race organisers must inform the Series Directors of their intention to run a British Series event. The Series Directors must approve the request and inform the race organisers accordingly.__
 - The Series will have a dedicated webpage, hosted by BMCCSA, www.bmccsa.org.uk.
+    - For 2024 some race details shall also be hosted at www.gb-rollerski-series.co.uk
 
 ## Duties of the Series Directors
 - To invite clubs affiliated to their Home Nation governing body or organisations to host a race.
@@ -24,7 +25,7 @@ specifically for the Series. This money shall be used for trophies/prizes or oth
 - To assist/advise organising clubs on the organisation of their race.
 - To keep the Series website up-to-date by posting up-coming race information, race results with Series point, Series standings, photos and other relevant information.
 - To approve each venue and race format. The Series Directors shall be notified by 31 March of venue and race format and will approve and announce events by the 15 April. The Series Directors may vary these timescales at their discretion.
-- To notify/advertise races through the BMCCSA website, Home Nations Governing Bodies, , clubs and other appropriate channels.
+- To notify/advertise races through the BMCCSA website, Home Nations Governing Bodies, clubs and other appropriate channels.
 
 ## Races and venues
 - A minimum of five events shall comprise the Series. More events may be added at the discretion of the Series Directors and with the agreement of the event organiser.
@@ -32,7 +33,7 @@ specifically for the Series. This money shall be used for trophies/prizes or oth
 
 ## Categories and other provisions
 
-Age shall be determined by competitor's age on the 31 December prior to the start of the Series season. For 2024, categories shall be:
+Age shall be determined by competitor's age on the 31st December prior to the start of the Series season. For 2024, categories shall be:
 - __Veteran__: over 40 (born 1983 or earlier) / __Super Veteran__: over 60 (born 1963 or earlier)
 - __Senior__: over 18 (born 2005 or earlier)
 
@@ -63,17 +64,17 @@ Race organisers need to say which race distance corresponds to which age categor
 
 > *“The longest distance race is for the Under 16s, Under 18s, Seniors and Veterans. The shorter distance race is for the Novices, Under 12s and Under 14s”*
     
-Participants have to indicate, when they enter a race, which category they wish to race in. They may race in a shorter race than that for their age but, in such case, Series points will be awarded firstly to all competitors in the longer designated race and then to competitors in the shorter race using the Points Scoring System below.
+Participants have to indicate, when they enter a race, which category they wish to race in. They may race in a *shorter* race than that for their age but, in such case, Series points will be awarded firstly to all competitors in the longer designated race *and then* to competitors in the shorter race using the Points Scoring System below.
 
 ## British Championship
-- One event per year shall be designated the British Championship. This venue should move to a different venue/region each year. To become British Champion, skiers must be British passport holders (although the race itself will be open to all skiers).
+- One event per year shall be designated the British Championship. This venue should move to a different venue/region each year. To become a British Champion, skiers must be a legal resident or citizen of the UK (have an address in the UK).
+    - (although the race itself will be open to all skiers).
 - The British champions shall be the winners of at least all categories for the British Series; the event organiser may designate sub-categories.
 - Wherever practicable, the British Championship should use matched roller skis.
-- Race results shall indicate British championship winners.
+- Race results shall indicate British Championship winners.
 
 ## Trophies
-- The club organising each event shall be responsible for any trophies/prizes awarded at its
-event.
+- The club organising each event shall be responsible for any trophies/prizes awarded at its event.
 - The designated British Roller Ski Championship organisers are responsible for trophies/prizes for this competition. They may approach the GBS Nordic Committee, clubs or other organisations for support.
 - Trophies for overall Series winners in all categories are held by the winners for one year and shall then be returned to the Series Director. When these trophies need replacing, the Series Directors may approach the GBS Nordic Committee, the British Masters or others for support.
 - The British Masters Cross Country Ski Association will provide trophies for the Veteran and Super Veteran categories.
@@ -115,9 +116,12 @@ Roller Ski Championship, irrespective of nationality but resident in the UK. The
   
     __353.1.1__ When using hand-timing, the time is taken when the competitor&#39;s first foot crosses the finish line.
 
-- Although it is encouraged that all participants in the Series be members of clubs affiliated to their respective national governing bodies, it is recognised that, for a variety of reasons, not all skiers will be members of affiliated clubs. No non-affiliated skier will be prevented from entering a Series race as long as they have appropriate insurance. Points scoring system
+- Although it is encouraged that all participants in the Series be members of clubs affiliated to their respective national governing bodies, it is recognised that, for a variety of reasons, not all skiers will be members of affiliated clubs. No non-affiliated skier will be prevented from entering a Series race as long as they have appropriate insurance. 
+
+## Points scoring system
 - Points will be awarded in the categories as follows: Junior youth Under 12s, Junior youth Under 14s, Youth Under 16s Youth Under 18s, Senior, Veteran and Super Veteran and Para categories combined, but separately for males and females using the table below.
-- Veterans and Super Veterans shall score points in the one or two categories below their own.
+- Veterans and Super Veterans shall score points in the one or two categories below their own. 
+
 As examples, a female Super Veteran finishing third in a race with one Senior and one Veteran ahead shall score: 50 points as Super Veteran (winner), 45 points as Veteran (second) and 42 points (third) as Senior. In a male race where the first three positions are Super Veteran, Veteran and Senior, the Super Veteran shall receive 50 points (winner) in each of the Senior, Veteran and Super Veteran categories; the Veteran shall receive 45 points (second) in the Senior and Veteran categories; the Senior shall receive 42 points (third) in the Senior Category.
 
 |Position|Points|Position|Points|Position|Points|Position|Points|

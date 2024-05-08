@@ -34,19 +34,19 @@ var raceData = {
 	{
 		"raceID": "race2",
 		"raceVenue": "Huntly",
-		"raceOrganiser": "HNSC", 
+		"raceOrganiser": "Huntly Nordic Ski Club", 
 		"raceName": "Huntly Sprints – FT",
 		"raceDate": "Sat 25 May",
-		"raceNotes": "<ul><li>GB Series race will be combined time of two time-trials.</li><li> K.O. sprints in the afternoon.</li><li> Races start 10:00. Organiser will supply Marwe roller skis.</li></ul>"
+		"raceNotes": "<p>The 600m purpose built track in Huntly, Aberdeenshire is the venue of races 1: The Huntly Sprints and 4: Huntly Championships of the Snowsport Scotland Roller Ski Series.</p><ul><li>Races start from 10am.</li><li>GB Series race will be combined time of two time-trials.</li><li> K.O. sprints in the afternoon.</li><li>Matched Marwe 610 rollerskis will be issued to skiers before the start of each race. Marwe barrel-wheeled rollerskis will be available for those who prefer to use them. Skiers should use their own rollerskis for practice & warm up.</li></ul>"
 	},
 		
 	{
 		"raceID": "champs",
 		"raceVenue": "Rhynie A941",
-		"raceOrganiser": "HNSC", 
+		"raceOrganiser": "Huntly Nordic Ski Club", 
 		"raceName": "Clashindarroch Hill Climb – CT",
 		"raceDate": "Sun 26 May",
-		"raceNotes": "<ul><li>Minimum age 11.</li><li> Any type of classic roller, must have ratchet.</li><li> 8.05/4.85 km climbs.</li><li> British Championship (TBC).</li></ul>"
+		"raceNotes": "<p>The second race of the Scottish series, the Clash Road Climb is along the A941 from Rhynie to the car park of the Clashandarroch Forest.</p><ul><li>Minimum age 11.</li><li> Time trial race format on Classic rollerskis.</li><li>Distances: 4 km and 7.75 km. Elevation Gain: 95 m, 178 m.</li><li>Gradually climbing road with some shorter steep sections. Some downhill with gradual bends and good visibility.</li><li> British Championship Race.</li></ul>"
 	},
 	{
 		"raceID": "race4",
@@ -70,23 +70,23 @@ var raceData = {
 		"raceOrganiser": "Fife Nordic Ski Club", 
 		"raceName": "Fife Races – FT",
 		"raceDate": "Sat 3 Aug.",
-		"raceNotes": "<ul><li> 1.6 / 3.2 / 6.4 / 9.6k mass start.</li><li> Start time TBC.</li><li> Marwe roller skis provided by organisers.</li></ul>"
+		"raceNotes": "<p>Located between Lochgelly and Loch Ore, Fife, this purpose built cycle park has a traffic free 1.6 km track. The third race of the Scottish series, held at the Fife Cycle Park, is a relatively new addition.</p><ul><li> 1km Novice; 3.2 km U14/U12; 6.4km Open + U16F; 9.6km Senior + U16M</li><li>Terrain: undulating with some well banked downhill corners.</li><li> Mass start format, Marwe roller skis provided by organisers.</li></ul>"
 	},
 	{
 		"raceID": "race7",
 		"raceVenue": "Huntly",
-		"raceOrganiser": "HNSC", 
+		"raceOrganiser": "Huntly Nordic Ski Club", 
 		"raceName": "Huntly Championships – FT",
 		"raceDate": "Sat 14 Sept.",
-		"raceNotes": "<ul><li> 3.5/5.4/7.1 km.</li><li> Registration from 9 a.m, races start at 10:00.</li><li> Relays follow main races.</li><li> Marwe roller skis provided by organisers.</li></ul>"
+		"raceNotes": "<p>The 600m purpose built track in Huntly, Aberdeenshire is the venue of Races 1 and 4 of the Scottish Series.</p><ul><li> Registration from 9 a.m, races start at 10:00.</li><li> Distances: Sen + vets 7.1km, U18 + U16 5.1 km, U14 +U12 3.7km, Novice 1.2km, Open 2km.</li><li> Relays follow main races.</li><li> Time trial format, Matched Marwe 610 rollerskis will be issued to skiers before the start of each race. Marwe barrel-wheeled rollerskis will be available for those who prefer to use them. Skiers should use their own rollerskis for practice & warm up.</li></ul>"
 	},
 	{
 		"raceID": "race8",
-		"raceVenue": "Glenmore Lodge",
-		"raceOrganiser": "CBNSC", 
+		"raceVenue": "Cairngorm Ski Road",
+		"raceOrganiser": "Cairngorm Biathlon and Nordic Ski Club", 
 		"raceName": "Cairngorm Hill Climb – FT",
 		"raceDate": "Sun 15 Sept.",
-		"raceNotes": "<ul><li> Start TBC.</li><li> Distance/roller type TBC.</li></ul>"
+		"raceNotes": "<p>The iconic ski road for accessing the Cairngorms has a long tradition of challenging athletes on bikes as well as roller skis and is a traditional training location for Scottish cross-country skiers and biathletes.</p><p>The Novice category is open to newer skiers, HOWEVER as the race is held on an open road, skiers must be able to fully control their direction and stay to the left side of the road. If in doubt speak to your club coach or the race organiser before entering.</p><ul><li> Distances: Novice 1.3km, U12 and U14 2.25km, U16 & U18 3.1km, and Super Vet, Vet and Senior 5.4km.</li><li>Elevation Gain: 50 m, 150 m, 205 m, 295 m by respective race distance above.</li><li>Time trial format.</li></ul>"
 	},
 	{
 		"raceID": "race9",
@@ -129,7 +129,7 @@ $.each(rulePoints,function(i, val){
 
 // Add Championship race details
 $('#championshipRace').append('<h1 style = "color:rgb(203,51,59)"><a href="#champs" style="text-decoration:none">'+championshipRaceHeader+'</a></h1>')
-$('#champsRaceDate').append('<i class="fa fa-calendar"x"> '+champsDate+'</i>')
+$('#champsRaceDate').append('<i class="fa fa-calendar"x", style="font-family: "Lato", sans-serif"> '+champsDate+'</i>')
 $('#championshipRace').append('<p>'+championshipRaceBlurb+'</p>')
 
 

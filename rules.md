@@ -67,19 +67,17 @@ Race organisers need to say which race distance corresponds to which age categor
 Participants have to indicate, when they enter a race, which category they wish to race in. They may race in a *shorter* race than that for their age but, in such case, Series points will be awarded firstly to all competitors in the longer designated race *and then* to competitors in the shorter race using the Points Scoring System below.
 
 ## British Championship
-- One event per year shall be designated the British Championship. This venue should move to a different venue/region each year. To become a British Champion, skiers must be a legal resident or citizen of the UK (have an address in the UK).
-    - (although the race itself will be open to all skiers).
+- One event per year shall be designated the British Championship. This venue should move to a different venue/region each year. To become a British Champion, skiers must be a legal resident or citizen of the UK (have an address in the UK) and/or be British passport holders (although the race itself will be open to all skiers).
 - The British champions shall be the winners of at least all categories for the British Series; the event organiser may designate sub-categories.
 - Wherever practicable, the British Championship should use matched roller skis.
 - Race results shall indicate British Championship winners.
 
 ## Trophies
-- The club organising each event shall be responsible for any trophies/prizes awarded at its event.
+- The club organising each event shall be responsible for any trophies/prizes awarded at it's event.
 - The designated British Roller Ski Championship organisers are responsible for trophies/prizes for this competition. They may approach the GBS Nordic Committee, clubs or other organisations for support.
 - Trophies for overall Series winners in all categories are held by the winners for one year and shall then be returned to the Series Director. When these trophies need replacing, the Series Directors may approach the GBS Nordic Committee, the British Masters or others for support.
 - The British Masters Cross Country Ski Association will provide trophies for the Veteran and Super Veteran categories.
-- The Bob Lacy Memorial Trophy shall be presented to the first male Veteran (40+) in the British
-Roller Ski Championship, irrespective of nationality but resident in the UK. The trophy shall be returned for presentation at the following year’s British Championships.
+- The Bob Lacy Memorial Trophy shall be presented to the first male Veteran (40+) in the British Roller Ski Championship, irrespective of nationality but resident in the UK. The trophy shall be returned for presentation at the following year’s British Championships.
 
 ## General race rules
 - Competitors under the age of 16 shall have their entry forms signed by their parents, guardians or responsible adult.
@@ -120,9 +118,7 @@ Roller Ski Championship, irrespective of nationality but resident in the UK. The
 
 ## Points scoring system
 - Points will be awarded in the categories as follows: Junior youth Under 12s, Junior youth Under 14s, Youth Under 16s Youth Under 18s, Senior, Veteran and Super Veteran and Para categories combined, but separately for males and females using the table below.
-- Veterans and Super Veterans shall score points in the one or two categories below their own. 
-
-As examples, a female Super Veteran finishing third in a race with one Senior and one Veteran ahead shall score: 50 points as Super Veteran (winner), 45 points as Veteran (second) and 42 points (third) as Senior. In a male race where the first three positions are Super Veteran, Veteran and Senior, the Super Veteran shall receive 50 points (winner) in each of the Senior, Veteran and Super Veteran categories; the Veteran shall receive 45 points (second) in the Senior and Veteran categories; the Senior shall receive 42 points (third) in the Senior Category.
+- Veterans and Super Veterans shall score points in the one or two categories below their own. As examples, a female Super Veteran finishing third in a race with one Senior and one Veteran ahead shall score: 50 points as Super Veteran (winner), 45 points as Veteran (second) and 42 points (third) as Senior. In a male race where the first three positions are Super Veteran, Veteran and Senior, the Super Veteran shall receive 50 points (winner) in each of the Senior, Veteran and Super Veteran categories; the Veteran shall receive 45 points (second) in the Senior and Veteran categories; the Senior shall receive 42 points (third) in the Senior Category.
 
 |Position|Points|Position|Points|Position|Points|Position|Points|
 |---|---|---|---|---|---|---|---|
@@ -152,3 +148,12 @@ To obtain the maximum number of scoring races, competitors must race in both Eng
 - The British Series winner for each category will be the competitor that obtains the most points in that category.
 - In the event of a tie, the competitor with most victories in the races which count for their overall Series position shall win. If there is still a tie, the competitor with most second places shall win, and so on until a winner is decided, unless this does not lead to a winner.
 - If competitors have an equal number of points and places, the competitor with better placing in their counting races over the other competitor or competitors shall win.
+
+## Modifications for the Scottish Rollerski Series
+
+The Scottish Rollerski Series from 2024 will use the same rules as above except for the following modifications to account for the fewer number of races in the series:
+
+- If four five or fewer races are run, the competitor’s best three results will count towards the Series.
+- If 6 races are run, the competitor’s best 4 results will count towards the Series.
+- If 7 or more races are run, the competitor’s best 5 results will count towards the Series.
+- At least one race of the races counting towards the Series must be at a venue other than the athlete’s home club.

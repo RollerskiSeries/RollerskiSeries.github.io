@@ -149,11 +149,3 @@ To obtain the maximum number of scoring races, competitors must race in both Eng
 - In the event of a tie, the competitor with most victories in the races which count for their overall Series position shall win. If there is still a tie, the competitor with most second places shall win, and so on until a winner is decided, unless this does not lead to a winner.
 - If competitors have an equal number of points and places, the competitor with better placing in their counting races over the other competitor or competitors shall win.
 
-## Modifications for the Scottish Rollerski Series
-
-The Scottish Rollerski Series from 2024 will use the same rules as above except for the following modifications to account for the fewer number of races in the series:
-
-- If four five or fewer races are run, the competitor’s best three results will count towards the Series.
-- If 6 races are run, the competitor’s best 4 results will count towards the Series.
-- If 7 or more races are run, the competitor’s best 5 results will count towards the Series.
-- At least one race of the races counting towards the Series must be at a venue other than the athlete’s home club.
